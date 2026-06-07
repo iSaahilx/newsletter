@@ -1,0 +1,2 @@
+[console_scripts]
+intel = intelligence.cli:app

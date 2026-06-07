@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.ruff_cache/
+.pytest_cache/
+
+# Keep generated output/history out of accidental commits locally.
+# The GitHub Action intentionally commits these folders when it runs.
+data/*.sqlite3
+data/*.sqlite3-*
+output/*.md
+output/*.html
+!output/.gitkeep
+!output/latest.md
+!output/dashboard.html
+!output/.nojekyll

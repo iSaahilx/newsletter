@@ -1,0 +1,46 @@
+name: Daily Intelligence Brief
+
+on:
+  schedule:
+    # 02:00 UTC daily. Adjust for your preferred morning delivery window.
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install package
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .
+
+      - name: Generate daily brief
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_SMALL_MODEL: ${{ vars.OPENAI_SMALL_MODEL || 'gpt-4.1-nano' }}
+          OPENAI_LARGE_MODEL: ${{ vars.OPENAI_LARGE_MODEL || 'gpt-4.1-mini' }}
+          SCORING_ITEM_LIMIT: ${{ vars.SCORING_ITEM_LIMIT || '72' }}
+          FINAL_BRIEF_ITEM_LIMIT: ${{ vars.FINAL_BRIEF_ITEM_LIMIT || '28' }}
+          MIN_IMPORTANCE_SCORE: ${{ vars.MIN_IMPORTANCE_SCORE || '70' }}
+          MARKET_MOVE_THRESHOLD_PERCENT: ${{ vars.MARKET_MOVE_THRESHOLD_PERCENT || '3' }}
+        run: python -m intelligence daily
+
+      - name: Commit generated brief
+        run: |
+          git add -f data output
+          git -c user.name="github-actions[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -m "Generate daily intelligence brief" || echo "No changes to commit"
+          git push

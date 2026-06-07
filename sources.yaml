@@ -1,0 +1,190 @@
+interests:
+  priority_1:
+    - artificial intelligence
+    - agentic ai
+    - ai engineering
+    - llm infrastructure
+    - startups
+    - developer tools
+  priority_2:
+    - quantum computing
+    - robotics
+    - energy
+    - climate tech
+    - biotechnology
+  priority_3:
+    - markets
+    - venture capital
+    - semiconductors
+    - big tech
+
+tickers:
+  - NVDA
+  - MSFT
+  - META
+  - GOOGL
+  - AMZN
+  - TSM
+  - AMD
+  - AAPL
+  - ASML
+  - ARM
+
+rss_sources:
+  ai_labs:
+    - name: OpenAI News
+      url: https://openai.com/news/rss.xml
+    - name: Anthropic News Search
+      url: https://news.google.com/rss/search?q=Anthropic%20research%20AI&hl=en-US&gl=US&ceid=US:en
+    - name: Google AI
+      url: https://blog.google/technology/ai/rss/
+    - name: Google Research
+      url: https://research.google/blog/rss/
+    - name: Google DeepMind
+      url: https://deepmind.google/blog/rss.xml
+    - name: Meta AI Search
+      url: https://news.google.com/rss/search?q=Meta%20AI%20research&hl=en-US&gl=US&ceid=US:en
+    - name: Mistral AI Search
+      url: https://news.google.com/rss/search?q=Mistral%20AI%20research&hl=en-US&gl=US&ceid=US:en
+    - name: Cohere Blog
+      url: https://cohere.com/blog/rss.xml
+
+  universities:
+    - name: Stanford HAI
+      url: https://hai.stanford.edu/news/rss.xml
+    - name: Stanford AI Search
+      url: https://news.google.com/rss/search?q=Stanford%20AI%20research&hl=en-US&gl=US&ceid=US:en
+    - name: MIT AI Search
+      url: https://news.google.com/rss/search?q=MIT%20AI%20research&hl=en-US&gl=US&ceid=US:en
+    - name: MIT Quantum Search
+      url: https://news.google.com/rss/search?q=MIT%20quantum%20research&hl=en-US&gl=US&ceid=US:en
+    - name: Berkeley AI Research
+      url: https://bair.berkeley.edu/blog/feed.xml
+    - name: CMU News
+      url: https://www.cmu.edu/news/rss/news.xml
+    - name: Oxford Science Search
+      url: https://news.google.com/rss/search?q=Oxford%20science%20research&hl=en-US&gl=US&ceid=US:en
+
+  big_tech:
+    - name: NVIDIA Newsroom
+      url: https://nvidianews.nvidia.com/releases.xml
+    - name: Microsoft Research
+      url: https://www.microsoft.com/en-us/research/feed/
+    - name: Amazon Science
+      url: https://www.amazon.science/index.rss
+    - name: Apple Machine Learning
+      url: https://machinelearning.apple.com/rss.xml
+    - name: IBM Research Search
+      url: https://news.google.com/rss/search?q=IBM%20Research%20AI%20quantum&hl=en-US&gl=US&ceid=US:en
+
+  research:
+    - name: Papers with Code
+      url: https://paperswithcode.com/feed.xml
+    - name: The Gradient
+      url: https://thegradient.pub/rss/
+    - name: Distill Archive
+      url: https://distill.pub/rss.xml
+    - name: Google Scholar Blog
+      url: https://blog.google/outreach-initiatives/education/rss/
+
+  tools:
+    - name: GitHub Trending Daily
+      url: https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml
+    - name: Hacker News Front Page
+      url: https://hnrss.org/frontpage
+    - name: Hacker News AI
+      url: https://hnrss.org/newest?q=AI
+    - name: Product Hunt Tech
+      url: https://www.producthunt.com/feed
+    - name: LangChain Blog
+      url: https://blog.langchain.dev/rss/
+    - name: LlamaIndex Search
+      url: https://news.google.com/rss/search?q=LlamaIndex%20AI%20agents%20RAG&hl=en-US&gl=US&ceid=US:en
+    - name: Weights and Biases Search
+      url: https://news.google.com/rss/search?q=Weights%20Biases%20AI%20ML%20tools&hl=en-US&gl=US&ceid=US:en
+    - name: Simon Willison
+      url: https://simonwillison.net/atom/everything/
+    - name: OpenRouter Blog
+      url: https://openrouter.ai/blog/rss.xml
+    - name: Modal Search
+      url: https://news.google.com/rss/search?q=Modal%20AI%20infrastructure&hl=en-US&gl=US&ceid=US:en
+    - name: Replicate Blog
+      url: https://replicate.com/blog/rss
+
+  science_and_tech:
+    - name: MIT Technology Review
+      url: https://www.technologyreview.com/feed/
+    - name: Ars Technica
+      url: https://feeds.arstechnica.com/arstechnica/index
+    - name: The Verge
+      url: https://www.theverge.com/rss/index.xml
+    - name: IEEE Spectrum
+      url: https://spectrum.ieee.org/rss/fulltext
+    - name: Nature Technology
+      url: https://www.nature.com/subjects/technology.rss
+    - name: ScienceDaily Technology
+      url: https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml
+    - name: ScienceDaily Quantum Physics
+      url: https://www.sciencedaily.com/rss/matter_energy/quantum_physics.xml
+    - name: ScienceDaily Materials Science
+      url: https://www.sciencedaily.com/rss/matter_energy/materials_science.xml
+    - name: Phys.org Technology
+      url: https://phys.org/rss-feed/technology-news/
+    - name: Phys.org Physics
+      url: https://phys.org/rss-feed/physics-news/
+    - name: SciTechDaily
+      url: https://scitechdaily.com/feed/
+    - name: Quanta Magazine
+      url: https://www.quantamagazine.org/feed/
+    - name: Nautilus
+      url: https://nautil.us/feed/
+    - name: The Quantum Insider
+      url: https://thequantuminsider.com/feed/
+
+  business_and_markets:
+    - name: TechCrunch AI
+      url: https://techcrunch.com/category/artificial-intelligence/feed/
+    - name: TechCrunch Startups
+      url: https://techcrunch.com/category/startups/feed/
+    - name: VentureBeat AI
+      url: https://venturebeat.com/category/ai/feed/
+    - name: CNBC Technology
+      url: https://www.cnbc.com/id/19854910/device/rss/rss.html
+    - name: AI Business Search
+      url: https://news.google.com/rss/search?q=AI%20startup%20funding%20acquisition%20NVIDIA%20OpenAI%20Anthropic&hl=en-US&gl=US&ceid=US:en
+
+  deep_tech_learning:
+    - name: Google Cloud Blog
+      url: https://cloudblog.withgoogle.com/rss/
+    - name: Google Developers Blog
+      url: https://developers.googleblog.com/feeds/posts/default?alt=rss
+    - name: InfoQ AI ML Data Engineering
+      url: https://feed.infoq.com/ai-ml-data-eng/
+    - name: InfoQ Architecture
+      url: https://feed.infoq.com/architecture-design/
+    - name: KDnuggets
+      url: https://www.kdnuggets.com/feed
+    - name: Towards Data Science
+      url: https://towardsdatascience.com/feed
+    - name: MarkTechPost
+      url: https://www.marktechpost.com/feed/
+    - name: Netflix TechBlog Search
+      url: https://news.google.com/rss/search?q=Netflix%20TechBlog%20engineering&hl=en-US&gl=US&ceid=US:en
+    - name: Cloudflare Blog
+      url: https://blog.cloudflare.com/rss/
+    - name: Engineering at Meta
+      url: https://engineering.fb.com/feed/
+    - name: Uber Engineering Search
+      url: https://news.google.com/rss/search?q=Uber%20Engineering%20blog%20systems&hl=en-US&gl=US&ceid=US:en
+
+  videos:
+    - name: Veritasium
+      url: https://www.youtube.com/feeds/videos.xml?channel_id=UCHnyfMqiRRG1u-2MsSQLbXA
+    - name: Two Minute Papers
+      url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg
+    - name: Computerphile
+      url: https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA
+    - name: PBS Space Time
+      url: https://www.youtube.com/feeds/videos.xml?channel_id=UC7_gcs09iThXybpVgjHZ_7g
+    - name: Welch Labs
+      url: https://www.youtube.com/feeds/videos.xml?channel_id=UConVfxXodg78Tzh5nNu85Ew
