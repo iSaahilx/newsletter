@@ -14,4 +14,5 @@ output/*.html
 !output/.gitkeep
 !output/latest.md
 !output/dashboard.html
+!output/index.html
 !output/.nojekyll
