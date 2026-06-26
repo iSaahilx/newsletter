@@ -61,7 +61,7 @@
 <body>
 <main>
   <header>
-    <p>Generated 2026-06-25 06:00 UTC</p>
+    <p>Generated 2026-06-26 06:04 UTC</p>
     <h1>Personal Intelligence Dashboard</h1>
     <p>Strong AI, research, engineering, science, markets, and curiosity signals. Cards are expandable when the idea needs a real explanation, not just a one-line summary.</p>
     <p><a href="latest.md">Open Markdown Brief</a></p>
@@ -77,17 +77,10 @@
     <h2>Emerging Trends</h2>
     <div class="grid">
 <article class="card trend">
-  <div class="meta"><span class="pill score">2.04x lift</span></div>
+  <div class="meta"><span class="pill score">2.03x lift</span></div>
   <h3>Ai</h3>
-  <p>Mentions rose 2.04x versus the previous monthly baseline.</p>
-  <p>Recent mentions: 28. Baseline mentions: 55.</p>
-</article>
-
-<article class="card trend">
-  <div class="meta"><span class="pill score">1.94x lift</span></div>
-  <h3>Llm</h3>
-  <p>Mentions rose 1.94x versus the previous monthly baseline.</p>
-  <p>Recent mentions: 17. Baseline mentions: 35.</p>
+  <p>Mentions rose 2.03x versus the previous monthly baseline.</p>
+  <p>Recent mentions: 30. Baseline mentions: 59.</p>
 </article></div>
   </section>
   <section><h2>Must Know</h2><div class="grid">
@@ -464,6 +457,27 @@
   <details>
     <summary>Expanded explanation</summary>
     <p class="deep">Following the paradigm shift initiated by OpenAI o3, interleaved reasoning with code to enhance multimodal large language models (MLLMs) has become a pivotal research frontier. The existing literature focuses primarily on tool-use within vision-perception tasks. However, such approaches typically rely on predefined heuristics for visual manipulation and are inherently incapable of addressing numerical computation problems due to their exclusive focus on visual operations. This paper empowers MLLMs with adaptive interleaved reasoning capabilities through extended reinforcement learning training on code-augmented complex numerical computation tasks. To this end, we propose a comprehensive three-component solution consisting of: a two-stage cold-start data construction pipeline, data filtering strategies for RL dataset curation, and an adaptive tool-invocation strategy leveraging a group-constrained reward function for interleaved reasoning trajectories. Extensive experiments demonstrate that after Reinforcement Learning training with the group-constrained reward function, performance improves by an average of 6.1 percentage points (pp) on evaluation benchmarks. Specifically, the accuracy for interleaved reasoning samples increases by 9.9 pp, and the overall success rate of tool-use exceeds 95%. Our data and code are available at: https://github.com/CongHan0808/AIR.git.</p>
+    <p><strong>Learning value:</strong> Useful as a learning lead; the model-enhanced run will turn this into a clearer lesson.</p>
+    <p><strong>Watch next:</strong> Watch follow-up coverage, adoption by major labs or companies, and benchmark evidence.</p>
+  </details>
+</article>
+
+<article class="card" data-type="research_paper" data-search="a hardware-safety-gated system for llm-written native artiq control code on a trapped-ion platform arxiv quantum physics research research_paper ai agents llm quantum ">
+  <div class="meta">
+    <span class="pill score">75/100</span>
+    <span class="pill">Research Paper</span>
+    <span class="pill">arXiv Quantum Physics</span>
+  </div>
+  <h3><a href="https://arxiv.org/abs/2606.27231v1" target="_blank" rel="noreferrer">A hardware-safety-gated system for LLM-written native ARTIQ control code on a trapped-ion platform</a></h3>
+  <p><strong>Hook:</strong> A research lead that may become important beyond the paper itself.</p>
+  <div class="summary">
+    <p><strong>Signal:</strong> Large-language-model (LLM) agents can write and run experimental control code. This allows laboratory work to be conducted autonomously. However, this autonomy raises a safety problem that prior work has not addressed. Unchecked code can damage the apparatus, and there is no formal, per-operation boundary between human authorization/supervision, and agent decisions. We present a control system that places an LLM agent in the loop of a trapped-ion experiment while enforcing such a boundary. The agent controls the existing Advanced Real-Time Infrastructure for Quantum physics (ARTIQ) stack through tools provided by a Model Context Protocol (MCP) server. No tool call reaches the hardware unless it carries an authorization token bound to its exact contents. Tokens are issued in one of two ways: automatically, by running the agent&#x27;s proposed script in an isolated hardware simulation (dax.sim) and checking every operation against preset per-device bounds, or manually by a human operator for sensitive actions. Within this boundary the agent develops its own experiments, rather than only calling pre-built routines. We deploy the system on a co-trapped $^{40}$Ca$^{+}$/$^{40}$CaOH$^{+}$ crystal, where the agent autonomously builds a full calibration stack and, with targeted operator guidance, closes a cross-instrument magnetic-field-stabilization loop. On a separate, independent $^{171}$Yb$^{+}$ platform, we confirm interface-level portability. We systematically test token-authorization mechanism with adversarial scripts that attempt to bypass it, mapping the precise boundary of its protection and prioritizing where to strengthen it next. Analyzing where the agent still requires human guidance, we find that its limits lie in metacognitive control, namely recognizing when a proble</p>
+    <p><strong>Why it matters:</strong> This matched your tracked interests and may signal a relevant technical or market shift.</p>
+    <p><strong>How it works:</strong> The source describes a proposed method or result; use the expanded section and original paper to inspect assumptions, model design, evaluation setup, and failure cases.</p>
+  </div>
+  <details>
+    <summary>Expanded explanation</summary>
+    <p class="deep">Large-language-model (LLM) agents can write and run experimental control code. This allows laboratory work to be conducted autonomously. However, this autonomy raises a safety problem that prior work has not addressed. Unchecked code can damage the apparatus, and there is no formal, per-operation boundary between human authorization/supervision, and agent decisions. We present a control system that places an LLM agent in the loop of a trapped-ion experiment while enforcing such a boundary. The agent controls the existing Advanced Real-Time Infrastructure for Quantum physics (ARTIQ) stack through tools provided by a Model Context Protocol (MCP) server. No tool call reaches the hardware unless it carries an authorization token bound to its exact contents. Tokens are issued in one of two ways: automatically, by running the agent&#x27;s proposed script in an isolated hardware simulation (dax.sim) and checking every operation against preset per-device bounds, or manually by a human operator for sensitive actions. Within this boundary the agent develops its own experiments, rather than only calling pre-built routines. We deploy the system on a co-trapped $^{40}$Ca$^{+}$/$^{40}$CaOH$^{+}$ crystal, where the agent autonomously builds a full calibration stack and, with targeted operator guidance, closes a cross-instrument magnetic-field-stabilization loop. On a separate, independent $^{171}$Yb$^{+}$ platform, we confirm interface-level portability. We systematically test token-authorization mechanism with adversarial scripts that attempt to bypass it, mapping the precise boundary of its protection and prioritizing where to strengthen it next. Analyzing where the agent still requires human guidance, we find that its limits lie in metacognitive control, namely recognizing when a proble</p>
     <p><strong>Learning value:</strong> Useful as a learning lead; the model-enhanced run will turn this into a clearer lesson.</p>
     <p><strong>Watch next:</strong> Watch follow-up coverage, adoption by major labs or companies, and benchmark evidence.</p>
   </details>
