@@ -61,7 +61,7 @@
 <body>
 <main>
   <header>
-    <p>Generated 2026-08-12 03:59 UTC</p>
+    <p>Generated 2026-08-13 04:04 UTC</p>
     <h1>Personal Intelligence Dashboard</h1>
     <p>Strong AI, research, engineering, science, markets, and curiosity signals. Cards are expandable when the idea needs a real explanation, not just a one-line summary.</p>
     <p><a href="latest.md">Open Markdown Brief</a></p>
@@ -84,6 +84,27 @@
 </article></div>
   </section>
   <section><h2>Must Know</h2><div class="grid">
+<article class="card" data-type="tool_or_framework" data-search="nvidia-nemo/switchyard github trending daily tools tool_or_framework ai llm ">
+  <div class="meta">
+    <span class="pill score">95/100</span>
+    <span class="pill">Tool Or Framework</span>
+    <span class="pill">GitHub Trending Daily</span>
+  </div>
+  <h3><a href="https://github.com/NVIDIA-NeMo/Switchyard" target="_blank" rel="noreferrer">NVIDIA-NeMo/Switchyard</a></h3>
+  
+  <div class="summary">
+    <p><strong>Signal:</strong> Switchyard Switchyard is a Rust proxy and library for LLM traffic. It routes requests across providers, translates between OpenAI and Anthropic APIs, records operational metrics, and provides typed, composable routing algorithms. Why Switchyard? Point a coding agent such as Claude Code or Codex at an open-source model. Switchyard translates between the OpenAI Chat, Anthropic Messages, and OpenAI Responses formats, so the agent keeps speaking its native API while the request is served by vLLM, NVIDIA NIM, Ollama, or any OpenAI-compatible endpoint. The same proxy can spread traffic across several models for A/B benchmarking, apply signal-driven stage routing, or run a custom algorithm you write yourself. Features Protocol Translation : convert between OpenAI Chat, Anthropic Messages, and OpenAI Responses formats Multi-Backend Routing : random routing, LLM-as-classifier routing, signal-driven stage-router, or your own algorithm Operational Metrics : Prometheus metrics cover requests, errors, latency, tokens, and routing overhead Maturity Switchyard is pre-alpha software that is evolving rapidly. The API and algorithms are expected to change significantly before we reach v1.0. Warning Experimental software. Not for production use. Quick Start Choose the launcher path to run Claude Code, Codex CLI, or OpenClaw through Switchyard. Choose the server path to run Switchyard as a standalone proxy. Choose the library path to embed routing in your own Rust application. Launcher Path Install uv if it is not already available, then install the published Switchyard tool: curl -LsSf https:</p>
+    <p><strong>Why it matters:</strong> This matched your tracked interests and may signal a relevant technical or market shift.</p>
+    <p><strong>How it works:</strong> Open the source for details; add OPENAI_API_KEY for a mechanism-level explanation.</p>
+  </div>
+  <details>
+    <summary>Expanded explanation</summary>
+    <p class="deep">Switchyard Switchyard is a Rust proxy and library for LLM traffic. It routes requests across providers, translates between OpenAI and Anthropic APIs, records operational metrics, and provides typed, composable routing algorithms. Why Switchyard? Point a coding agent such as Claude Code or Codex at an open-source model. Switchyard translates between the OpenAI Chat, Anthropic Messages, and OpenAI Responses formats, so the agent keeps speaking its native API while the request is served by vLLM, NVIDIA NIM, Ollama, or any OpenAI-compatible endpoint. The same proxy can spread traffic across several models for A/B benchmarking, apply signal-driven stage routing, or run a custom algorithm you write yourself. Features Protocol Translation : convert between OpenAI Chat, Anthropic Messages, and OpenAI Responses formats Multi-Backend Routing : random routing, LLM-as-classifier routing, signal-driven stage-router, or your own algorithm Operational Metrics : Prometheus metrics cover requests, errors, latency, tokens, and routing overhead Maturity Switchyard is pre-alpha software that is evolving rapidly. The API and algorithms are expected to change significantly before we reach v1.0. Warning Experimental software. Not for production use. Quick Start Choose the launcher path to run Claude Code, Codex CLI, or OpenClaw through Switchyard. Choose the server path to run Switchyard as a standalone proxy. Choose the library path to embed routing in your own Rust application. Launcher Path Install uv if it is not already available, then install the published Switchyard tool: curl -LsSf https:</p>
+    <p><strong>Learning value:</strong> Useful as a learning lead; the model-enhanced run will turn this into a clearer lesson.</p>
+    <p><strong>Watch next:</strong> Watch follow-up coverage, adoption by major labs or companies, and benchmark evidence.</p>
+  </details>
+</article>
+
 <article class="card" data-type="research_paper" data-search="stealing reasoning traces from proprietary llm apis arxiv machine learning research research_paper ai llm ">
   <div class="meta">
     <span class="pill score">95/100</span>
@@ -229,27 +250,6 @@
     <p><strong>Learning value:</strong> Useful as a learning lead; the model-enhanced run will turn this into a clearer lesson.</p>
     <p><strong>Watch next:</strong> Watch follow-up coverage, adoption by major labs or companies, and benchmark evidence.</p>
   </details>
-</article>
-
-<article class="card" data-type="tool_or_framework" data-search="show hn: smart model routing directly in claude, codex and cursor hacker news front page tools tool_or_framework ai agents llm ">
-  <div class="meta">
-    <span class="pill score">95/100</span>
-    <span class="pill">Tool Or Framework</span>
-    <span class="pill">Hacker News Front Page</span>
-  </div>
-  <h3><a href="https://github.com/workweave/router" target="_blank" rel="noreferrer">Show HN: Smart model routing directly in Claude, Codex and Cursor</a></h3>
-  
-  <div class="summary">
-    <p><strong>Signal:</strong> We built a model router that plugs into coding agents (e.g. Claude Code, Codex, Cursor, etc.) and intelligently sends requests to the best model to serve them. Here&#x27;s a quick demo of running it locally: https://www.youtube.com/watch?v=isKhAyivtfM . At Weave, we write most of our code with AI, and it&#x27;s been getting more expensive. This came to a head when Opus 4.7 was released and, thanks to its tokenizer changes, our costs shot up. We knew we didn&#x27;t need Opus for everything but we didn&#x27;t want to lose out on the intelligence for the cases where you really need it. So we decided to build a model router to handle this for us. The Weave Router acts as an Anthropic/OpenAI endpoint specifically for coding agents. It looks at every inference request and intelligently (more on that in a sec) decides what model to send it to, handling all the translations required along the way. So it can use faster/cheaper models (e.g. DeepSeek v4, GLM 5.2, Kimi K2.6) when possible, and frontier models (Opus 4.8 &amp; GPT 5.5 (&amp; Fable whenever it&#x27;s back)) when necessary. How do we know what model to route to? We trained an RL model on tens of thousands (so far!) of agent traces. We reward the routing model when it selects an LLM that successfully completes the given task. Here&#x27;s an example: if you ask the router to plan a complex change, it will (probably) route that request to Opus 4.8. Subagents exploring the codebase to gather context will be routed to more suitable models (e.g. DeepSeek V4 Flash). Then when you have the plan ready to implement, it will be (most likely) be handed to a quicker model </p>
-    <p><strong>Why it matters:</strong> This matched your tracked interests and may signal a relevant technical or market shift.</p>
-    <p><strong>How it works:</strong> Open the source for details; add OPENAI_API_KEY for a mechanism-level explanation.</p>
-  </div>
-  <details>
-    <summary>Expanded explanation</summary>
-    <p class="deep">We built a model router that plugs into coding agents (e.g. Claude Code, Codex, Cursor, etc.) and intelligently sends requests to the best model to serve them. Here&#x27;s a quick demo of running it locally: https://www.youtube.com/watch?v=isKhAyivtfM . At Weave, we write most of our code with AI, and it&#x27;s been getting more expensive. This came to a head when Opus 4.7 was released and, thanks to its tokenizer changes, our costs shot up. We knew we didn&#x27;t need Opus for everything but we didn&#x27;t want to lose out on the intelligence for the cases where you really need it. So we decided to build a model router to handle this for us. The Weave Router acts as an Anthropic/OpenAI endpoint specifically for coding agents. It looks at every inference request and intelligently (more on that in a sec) decides what model to send it to, handling all the translations required along the way. So it can use faster/cheaper models (e.g. DeepSeek v4, GLM 5.2, Kimi K2.6) when possible, and frontier models (Opus 4.8 &amp; GPT 5.5 (&amp; Fable whenever it&#x27;s back)) when necessary. How do we know what model to route to? We trained an RL model on tens of thousands (so far!) of agent traces. We reward the routing model when it selects an LLM that successfully completes the given task. Here&#x27;s an example: if you ask the router to plan a complex change, it will (probably) route that request to Opus 4.8. Subagents exploring the codebase to gather context will be routed to more suitable models (e.g. DeepSeek V4 Flash). Then when you have the plan ready to implement, it will be (most likely) be handed to a quicker model </p>
-    <p><strong>Learning value:</strong> Useful as a learning lead; the model-enhanced run will turn this into a clearer lesson.</p>
-    <p><strong>Watch next:</strong> Watch follow-up coverage, adoption by major labs or companies, and benchmark evidence.</p>
-  </details>
 </article></div></section>
 <section><h2>Research Papers</h2><div class="grid">
 <article class="card" data-type="research_paper" data-search="stealing reasoning traces from proprietary llm apis arxiv machine learning research research_paper ai llm ">
@@ -357,6 +357,27 @@
   </details>
 </article></div></section>
 <section><h2>AI Infrastructure</h2><div class="grid">
+<article class="card" data-type="tool_or_framework" data-search="nvidia-nemo/switchyard github trending daily tools tool_or_framework ai llm ">
+  <div class="meta">
+    <span class="pill score">95/100</span>
+    <span class="pill">Tool Or Framework</span>
+    <span class="pill">GitHub Trending Daily</span>
+  </div>
+  <h3><a href="https://github.com/NVIDIA-NeMo/Switchyard" target="_blank" rel="noreferrer">NVIDIA-NeMo/Switchyard</a></h3>
+  
+  <div class="summary">
+    <p><strong>Signal:</strong> Switchyard Switchyard is a Rust proxy and library for LLM traffic. It routes requests across providers, translates between OpenAI and Anthropic APIs, records operational metrics, and provides typed, composable routing algorithms. Why Switchyard? Point a coding agent such as Claude Code or Codex at an open-source model. Switchyard translates between the OpenAI Chat, Anthropic Messages, and OpenAI Responses formats, so the agent keeps speaking its native API while the request is served by vLLM, NVIDIA NIM, Ollama, or any OpenAI-compatible endpoint. The same proxy can spread traffic across several models for A/B benchmarking, apply signal-driven stage routing, or run a custom algorithm you write yourself. Features Protocol Translation : convert between OpenAI Chat, Anthropic Messages, and OpenAI Responses formats Multi-Backend Routing : random routing, LLM-as-classifier routing, signal-driven stage-router, or your own algorithm Operational Metrics : Prometheus metrics cover requests, errors, latency, tokens, and routing overhead Maturity Switchyard is pre-alpha software that is evolving rapidly. The API and algorithms are expected to change significantly before we reach v1.0. Warning Experimental software. Not for production use. Quick Start Choose the launcher path to run Claude Code, Codex CLI, or OpenClaw through Switchyard. Choose the server path to run Switchyard as a standalone proxy. Choose the library path to embed routing in your own Rust application. Launcher Path Install uv if it is not already available, then install the published Switchyard tool: curl -LsSf https:</p>
+    <p><strong>Why it matters:</strong> This matched your tracked interests and may signal a relevant technical or market shift.</p>
+    <p><strong>How it works:</strong> Open the source for details; add OPENAI_API_KEY for a mechanism-level explanation.</p>
+  </div>
+  <details>
+    <summary>Expanded explanation</summary>
+    <p class="deep">Switchyard Switchyard is a Rust proxy and library for LLM traffic. It routes requests across providers, translates between OpenAI and Anthropic APIs, records operational metrics, and provides typed, composable routing algorithms. Why Switchyard? Point a coding agent such as Claude Code or Codex at an open-source model. Switchyard translates between the OpenAI Chat, Anthropic Messages, and OpenAI Responses formats, so the agent keeps speaking its native API while the request is served by vLLM, NVIDIA NIM, Ollama, or any OpenAI-compatible endpoint. The same proxy can spread traffic across several models for A/B benchmarking, apply signal-driven stage routing, or run a custom algorithm you write yourself. Features Protocol Translation : convert between OpenAI Chat, Anthropic Messages, and OpenAI Responses formats Multi-Backend Routing : random routing, LLM-as-classifier routing, signal-driven stage-router, or your own algorithm Operational Metrics : Prometheus metrics cover requests, errors, latency, tokens, and routing overhead Maturity Switchyard is pre-alpha software that is evolving rapidly. The API and algorithms are expected to change significantly before we reach v1.0. Warning Experimental software. Not for production use. Quick Start Choose the launcher path to run Claude Code, Codex CLI, or OpenClaw through Switchyard. Choose the server path to run Switchyard as a standalone proxy. Choose the library path to embed routing in your own Rust application. Launcher Path Install uv if it is not already available, then install the published Switchyard tool: curl -LsSf https:</p>
+    <p><strong>Learning value:</strong> Useful as a learning lead; the model-enhanced run will turn this into a clearer lesson.</p>
+    <p><strong>Watch next:</strong> Watch follow-up coverage, adoption by major labs or companies, and benchmark evidence.</p>
+  </details>
+</article>
+
 <article class="card" data-type="tool_or_framework" data-search="tauricresearch/tradingagents github trending daily tools tool_or_framework ai agents llm ">
   <div class="meta">
     <span class="pill score">95/100</span>
@@ -583,27 +604,6 @@
   <details>
     <summary>Expanded explanation</summary>
     <p class="deep">an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM 🦆 goose has moved! This project has moved from block/goose to the Agentic AI Foundation (AAIF) at the Linux Foundation. Some links and references are still being updated — please bear with us during the transition. goose your native open source AI agent — desktop app, CLI, and API — for code, workflows, and everything in between goose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you need to get done. A native desktop app for macOS, Linux, and Windows. A full CLI for terminal workflows. An API to embed it anywhere. Built in Rust for performance and portability. goose works with 15+ providers — Anthropic, OpenAI, Google, Ollama, OpenRouter, Azure, Bedrock, and more. Use API keys or your existing Claude, ChatGPT, or Gemini subscriptions via ACP . Connect to 70+ extensions via the Model Context Protocol open standard. goose is part of the Agentic AI Foundation (AAIF) at the Linux Foundation. Get started Download the desktop app for macOS, Linux, and Windows. Or install the CLI: curl -fsSL https://github.com/aaif-goose/goose/releases/download/stable/download_cli.sh | bash Quick links Quickstart Installation Tutorials Documentation Governance Custom Distributions — build your own goose distro with preconfigured providers, extensions, and branding Need help? Diagnostics &amp; Reporting Known Issues a little goose humor 🪿 Why did the developer choose goose as their AI ag</p>
-    <p><strong>Learning value:</strong> Useful as a learning lead; the model-enhanced run will turn this into a clearer lesson.</p>
-    <p><strong>Watch next:</strong> Watch follow-up coverage, adoption by major labs or companies, and benchmark evidence.</p>
-  </details>
-</article>
-
-<article class="card" data-type="tool_or_framework" data-search="nousresearch/hermes-agent github trending daily tools tool_or_framework ai agents llm ">
-  <div class="meta">
-    <span class="pill score">92/100</span>
-    <span class="pill">Tool Or Framework</span>
-    <span class="pill">GitHub Trending Daily</span>
-  </div>
-  <h3><a href="https://github.com/NousResearch/hermes-agent" target="_blank" rel="noreferrer">NousResearch/hermes-agent</a></h3>
-  
-  <div class="summary">
-    <p><strong>Signal:</strong> The agent that grows with you Hermes Agent ☤ The self-improving AI agent built by Nous Research . It&#x27;s the only agent with a built-in learning loop — it creates skills from experience, improves them during use, nudges itself to persist knowledge, searches its own past conversations, and builds a deepening model of who you are across sessions. Run it on a $5 VPS, a GPU cluster, or serverless infrastructure that costs nearly nothing when idle. It&#x27;s not tied to your laptop — talk to it from Telegram while it works on a cloud VM. Use any model you want — Nous Portal , OpenRouter (200+ models), NovitaAI (AI-native cloud for Model API, Agent Sandbox, and GPU Cloud), NVIDIA NIM (Nemotron), Xiaomi MiMo , z.ai/GLM , Kimi/Moonshot , MiniMax , Hugging Face , OpenAI, or your own endpoint. Switch with hermes model — no code changes, no lock-in. A real terminal interface Full TUI with multiline editing, slash-command autocomplete, conversation history, interrupt-and-redirect, and streaming tool output. Lives where you do Telegram, Discord, Slack, WhatsApp, Signal, and CLI — all from a single gateway process. Voice memo transcription, cross-platform conversation continuity. A closed learning loop Agent-curated memory with periodic nudges. Autonomous skill creation after complex tasks. Skills self-improve during use. FTS5 session search with LLM summarization for cross-session recall. Honcho dialectic user modeling. Compatible with the agentskills.io open standard. Scheduled automations Built-in cron scheduler with delivery to any platform. Daily reports, nightly backups, weekly audits — a</p>
-    <p><strong>Why it matters:</strong> This matched your tracked interests and may signal a relevant technical or market shift.</p>
-    <p><strong>How it works:</strong> Open the source for details; add OPENAI_API_KEY for a mechanism-level explanation.</p>
-  </div>
-  <details>
-    <summary>Expanded explanation</summary>
-    <p class="deep">The agent that grows with you Hermes Agent ☤ The self-improving AI agent built by Nous Research . It&#x27;s the only agent with a built-in learning loop — it creates skills from experience, improves them during use, nudges itself to persist knowledge, searches its own past conversations, and builds a deepening model of who you are across sessions. Run it on a $5 VPS, a GPU cluster, or serverless infrastructure that costs nearly nothing when idle. It&#x27;s not tied to your laptop — talk to it from Telegram while it works on a cloud VM. Use any model you want — Nous Portal , OpenRouter (200+ models), NovitaAI (AI-native cloud for Model API, Agent Sandbox, and GPU Cloud), NVIDIA NIM (Nemotron), Xiaomi MiMo , z.ai/GLM , Kimi/Moonshot , MiniMax , Hugging Face , OpenAI, or your own endpoint. Switch with hermes model — no code changes, no lock-in. A real terminal interface Full TUI with multiline editing, slash-command autocomplete, conversation history, interrupt-and-redirect, and streaming tool output. Lives where you do Telegram, Discord, Slack, WhatsApp, Signal, and CLI — all from a single gateway process. Voice memo transcription, cross-platform conversation continuity. A closed learning loop Agent-curated memory with periodic nudges. Autonomous skill creation after complex tasks. Skills self-improve during use. FTS5 session search with LLM summarization for cross-session recall. Honcho dialectic user modeling. Compatible with the agentskills.io open standard. Scheduled automations Built-in cron scheduler with delivery to any platform. Daily reports, nightly backups, weekly audits — a</p>
     <p><strong>Learning value:</strong> Useful as a learning lead; the model-enhanced run will turn this into a clearer lesson.</p>
     <p><strong>Watch next:</strong> Watch follow-up coverage, adoption by major labs or companies, and benchmark evidence.</p>
   </details>
