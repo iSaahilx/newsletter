@@ -61,7 +61,7 @@
 <body>
 <main>
   <header>
-    <p>Generated 2026-10-13 08:47 UTC</p>
+    <p>Generated 2026-10-14 06:56 UTC</p>
     <h1>Personal Intelligence Dashboard</h1>
     <p>Strong AI, research, engineering, science, markets, and curiosity signals. Cards are expandable when the idea needs a real explanation, not just a one-line summary.</p>
     <p><a href="latest.md">Open Markdown Brief</a></p>
@@ -78,6 +78,27 @@
     <div class="grid"><p>No emerging trend yet.</p></div>
   </section>
   <section><h2>Must Know</h2><div class="grid">
+<article class="card" data-type="tool_or_framework" data-search="llm-gemini 0.35 simon willison tools tool_or_framework ai llm ">
+  <div class="meta">
+    <span class="pill score">95/100</span>
+    <span class="pill">Tool Or Framework</span>
+    <span class="pill">Simon Willison</span>
+  </div>
+  <h3><a href="https://simonwillison.net/2026/Oct/13/llm-gemini/" target="_blank" rel="noreferrer">llm-gemini 0.35</a></h3>
+  
+  <div class="summary">
+    <p><strong>Signal:</strong> Release: llm-gemini 0.35 I added support to llm-gemini for the new Gemini 4 Argon model, made available today via the Gemini API and for customers of their $100/month subscription plan. Here are the low, medium and high pelicans . As expected, they are all excellent: Gemini has a track record of producing great SVGs, and are the only lab where I know their staff have invested in SVG specifically (and who have boasted about their pelicans before.) Here&#x27;s the &quot;high&quot; illustration, which cost me 17.166 cents: The pricing is interesting. At launch, Argon is $2/million input and $10/million output - the same price as GPT-6 Sol, half the price of Claude Opus 5.5 and 1/5th the price of Claude Fable 5.1 and GPT-6 Astra. But on December 1st Argon is set to double in price - so it will be the same price as Opus 5.5. Prices like this aren&#x27;t really comparable these days since what really matters is how many tokens a model takes to achieve a goal within an agentic harness. One useful clue for that comes from Artificial Analysis, who publish the total cost to run their benchmark using each model. Argon is looking very good there - costing $2,407 to run the benchmark, putting it close to GLM-5.3 and significantly cheaper than OpenAI, Anthropic, and Meta&#x27;s latest models. When the price doubles it will still be a little cheaper than GPT-6 Astra. (I used ChatGPT to edit that chart ! The data is all correct, I checked - I needed to get that Gemini 4 Argon info box to display without overlapping the other numbers.) Some bonus examples using Gemini 4 Argon: here&#x27;s Generate an SVG of an armadillo</p>
+    <p><strong>Why it matters:</strong> This matched your tracked interests and may signal a relevant technical or market shift.</p>
+    <p><strong>How it works:</strong> Open the source for details; add OPENAI_API_KEY for a mechanism-level explanation.</p>
+  </div>
+  <details>
+    <summary>Expanded explanation</summary>
+    <p class="deep">Release: llm-gemini 0.35 I added support to llm-gemini for the new Gemini 4 Argon model, made available today via the Gemini API and for customers of their $100/month subscription plan. Here are the low, medium and high pelicans . As expected, they are all excellent: Gemini has a track record of producing great SVGs, and are the only lab where I know their staff have invested in SVG specifically (and who have boasted about their pelicans before.) Here&#x27;s the &quot;high&quot; illustration, which cost me 17.166 cents: The pricing is interesting. At launch, Argon is $2/million input and $10/million output - the same price as GPT-6 Sol, half the price of Claude Opus 5.5 and 1/5th the price of Claude Fable 5.1 and GPT-6 Astra. But on December 1st Argon is set to double in price - so it will be the same price as Opus 5.5. Prices like this aren&#x27;t really comparable these days since what really matters is how many tokens a model takes to achieve a goal within an agentic harness. One useful clue for that comes from Artificial Analysis, who publish the total cost to run their benchmark using each model. Argon is looking very good there - costing $2,407 to run the benchmark, putting it close to GLM-5.3 and significantly cheaper than OpenAI, Anthropic, and Meta&#x27;s latest models. When the price doubles it will still be a little cheaper than GPT-6 Astra. (I used ChatGPT to edit that chart ! The data is all correct, I checked - I needed to get that Gemini 4 Argon info box to display without overlapping the other numbers.) Some bonus examples using Gemini 4 Argon: here&#x27;s Generate an SVG of an armadillo</p>
+    <p><strong>Learning value:</strong> Useful as a learning lead; the model-enhanced run will turn this into a clearer lesson.</p>
+    <p><strong>Watch next:</strong> Watch follow-up coverage, adoption by major labs or companies, and benchmark evidence.</p>
+  </details>
+</article>
+
 <article class="card" data-type="tool_or_framework" data-search="berriai/litellm github trending daily tools tool_or_framework ai llm ">
   <div class="meta">
     <span class="pill score">95/100</span>
@@ -223,27 +244,6 @@
     <p><strong>Learning value:</strong> Useful as a learning lead; the model-enhanced run will turn this into a clearer lesson.</p>
     <p><strong>Watch next:</strong> Watch follow-up coverage, adoption by major labs or companies, and benchmark evidence.</p>
   </details>
-</article>
-
-<article class="card" data-type="research_paper" data-search="stealing reasoning traces from proprietary llm apis arxiv machine learning research research_paper ai llm ">
-  <div class="meta">
-    <span class="pill score">95/100</span>
-    <span class="pill">Research Paper</span>
-    <span class="pill">arXiv Machine Learning</span>
-  </div>
-  <h3><a href="https://arxiv.org/abs/2608.09867v1" target="_blank" rel="noreferrer">Stealing Reasoning Traces from Proprietary LLM APIs</a></h3>
-  <p><strong>Hook:</strong> A research lead that may become important beyond the paper itself.</p>
-  <div class="summary">
-    <p><strong>Signal:</strong> Leading large language model providers now conceal their models&#x27; step-by-step reasoning, or chain-of-thought, to protect intellectual property and limit information leakage. Rather than storing these traces server-side, providers return them to the client as blocks of encrypted text, which the client passes back with each subsequent request. Building on prior research, we identify an architectural vulnerability: these encrypted blocks are fully compatible and interchangeable across different sessions, users, and models within a provider&#x27;s ecosystem. We exploit this compatibility to develop a scalable decryption jailbreak. By injecting an encrypted reasoning trace from a given model into a weaker, and less safeguarded model from the same provider, we force it to decode and output the trace verbatim in plaintext, without ever jailbreaking the more capable model directly. This vulnerability enables four distinct attack vectors. First, it circumvents anti-distillation mechanisms, allowing adversaries to extract a proprietary model&#x27;s reasoning, as we demonstrate across Anthropic, OpenAI, and Google. Second, it allows for large-scale private data extraction. Developers frequently share session logs publicly, unaware of contents of the encrypted blocks. By decoding 315,320 reasoning blocks scraped from public repositories, we recovered 367 Personally Identifiable Information (PII) artifacts and 182 credentials. Third, it inadvertently reveals hazardous information hidden within the reasoning process, even in cases where the model&#x27;s final, visible output safely rejects a malicious request. Fourth, attackers can leverage this flaw to execute invisible prompt injections, embedding malicious payloads entirely within encrypted blocks to poison public agentic rollouts. Following res</p>
-    <p><strong>Why it matters:</strong> This matched your tracked interests and may signal a relevant technical or market shift.</p>
-    <p><strong>How it works:</strong> The source describes a proposed method or result; use the expanded section and original paper to inspect assumptions, model design, evaluation setup, and failure cases.</p>
-  </div>
-  <details>
-    <summary>Expanded explanation</summary>
-    <p class="deep">Leading large language model providers now conceal their models&#x27; step-by-step reasoning, or chain-of-thought, to protect intellectual property and limit information leakage. Rather than storing these traces server-side, providers return them to the client as blocks of encrypted text, which the client passes back with each subsequent request. Building on prior research, we identify an architectural vulnerability: these encrypted blocks are fully compatible and interchangeable across different sessions, users, and models within a provider&#x27;s ecosystem. We exploit this compatibility to develop a scalable decryption jailbreak. By injecting an encrypted reasoning trace from a given model into a weaker, and less safeguarded model from the same provider, we force it to decode and output the trace verbatim in plaintext, without ever jailbreaking the more capable model directly. This vulnerability enables four distinct attack vectors. First, it circumvents anti-distillation mechanisms, allowing adversaries to extract a proprietary model&#x27;s reasoning, as we demonstrate across Anthropic, OpenAI, and Google. Second, it allows for large-scale private data extraction. Developers frequently share session logs publicly, unaware of contents of the encrypted blocks. By decoding 315,320 reasoning blocks scraped from public repositories, we recovered 367 Personally Identifiable Information (PII) artifacts and 182 credentials. Third, it inadvertently reveals hazardous information hidden within the reasoning process, even in cases where the model&#x27;s final, visible output safely rejects a malicious request. Fourth, attackers can leverage this flaw to execute invisible prompt injections, embedding malicious payloads entirely within encrypted blocks to poison public agentic rollouts. Following res</p>
-    <p><strong>Learning value:</strong> Useful as a learning lead; the model-enhanced run will turn this into a clearer lesson.</p>
-    <p><strong>Watch next:</strong> Watch follow-up coverage, adoption by major labs or companies, and benchmark evidence.</p>
-  </details>
 </article></div></section>
 <section><h2>Research Papers</h2><div class="grid">
 <article class="card" data-type="technical_breakthrough" data-search="meet switchyard: a rust proxy and library that routes and translates llm traffic across openai and anthropic apis marktechpost deep_tech_learning technical_breakthrough ai llm ">
@@ -351,6 +351,27 @@
   </details>
 </article></div></section>
 <section><h2>AI Infrastructure</h2><div class="grid">
+<article class="card" data-type="tool_or_framework" data-search="llm-gemini 0.35 simon willison tools tool_or_framework ai llm ">
+  <div class="meta">
+    <span class="pill score">95/100</span>
+    <span class="pill">Tool Or Framework</span>
+    <span class="pill">Simon Willison</span>
+  </div>
+  <h3><a href="https://simonwillison.net/2026/Oct/13/llm-gemini/" target="_blank" rel="noreferrer">llm-gemini 0.35</a></h3>
+  
+  <div class="summary">
+    <p><strong>Signal:</strong> Release: llm-gemini 0.35 I added support to llm-gemini for the new Gemini 4 Argon model, made available today via the Gemini API and for customers of their $100/month subscription plan. Here are the low, medium and high pelicans . As expected, they are all excellent: Gemini has a track record of producing great SVGs, and are the only lab where I know their staff have invested in SVG specifically (and who have boasted about their pelicans before.) Here&#x27;s the &quot;high&quot; illustration, which cost me 17.166 cents: The pricing is interesting. At launch, Argon is $2/million input and $10/million output - the same price as GPT-6 Sol, half the price of Claude Opus 5.5 and 1/5th the price of Claude Fable 5.1 and GPT-6 Astra. But on December 1st Argon is set to double in price - so it will be the same price as Opus 5.5. Prices like this aren&#x27;t really comparable these days since what really matters is how many tokens a model takes to achieve a goal within an agentic harness. One useful clue for that comes from Artificial Analysis, who publish the total cost to run their benchmark using each model. Argon is looking very good there - costing $2,407 to run the benchmark, putting it close to GLM-5.3 and significantly cheaper than OpenAI, Anthropic, and Meta&#x27;s latest models. When the price doubles it will still be a little cheaper than GPT-6 Astra. (I used ChatGPT to edit that chart ! The data is all correct, I checked - I needed to get that Gemini 4 Argon info box to display without overlapping the other numbers.) Some bonus examples using Gemini 4 Argon: here&#x27;s Generate an SVG of an armadillo</p>
+    <p><strong>Why it matters:</strong> This matched your tracked interests and may signal a relevant technical or market shift.</p>
+    <p><strong>How it works:</strong> Open the source for details; add OPENAI_API_KEY for a mechanism-level explanation.</p>
+  </div>
+  <details>
+    <summary>Expanded explanation</summary>
+    <p class="deep">Release: llm-gemini 0.35 I added support to llm-gemini for the new Gemini 4 Argon model, made available today via the Gemini API and for customers of their $100/month subscription plan. Here are the low, medium and high pelicans . As expected, they are all excellent: Gemini has a track record of producing great SVGs, and are the only lab where I know their staff have invested in SVG specifically (and who have boasted about their pelicans before.) Here&#x27;s the &quot;high&quot; illustration, which cost me 17.166 cents: The pricing is interesting. At launch, Argon is $2/million input and $10/million output - the same price as GPT-6 Sol, half the price of Claude Opus 5.5 and 1/5th the price of Claude Fable 5.1 and GPT-6 Astra. But on December 1st Argon is set to double in price - so it will be the same price as Opus 5.5. Prices like this aren&#x27;t really comparable these days since what really matters is how many tokens a model takes to achieve a goal within an agentic harness. One useful clue for that comes from Artificial Analysis, who publish the total cost to run their benchmark using each model. Argon is looking very good there - costing $2,407 to run the benchmark, putting it close to GLM-5.3 and significantly cheaper than OpenAI, Anthropic, and Meta&#x27;s latest models. When the price doubles it will still be a little cheaper than GPT-6 Astra. (I used ChatGPT to edit that chart ! The data is all correct, I checked - I needed to get that Gemini 4 Argon info box to display without overlapping the other numbers.) Some bonus examples using Gemini 4 Argon: here&#x27;s Generate an SVG of an armadillo</p>
+    <p><strong>Learning value:</strong> Useful as a learning lead; the model-enhanced run will turn this into a clearer lesson.</p>
+    <p><strong>Watch next:</strong> Watch follow-up coverage, adoption by major labs or companies, and benchmark evidence.</p>
+  </details>
+</article>
+
 <article class="card" data-type="tool_or_framework" data-search="berriai/litellm github trending daily tools tool_or_framework ai llm ">
   <div class="meta">
     <span class="pill score">95/100</span>
@@ -577,27 +598,6 @@
   <details>
     <summary>Expanded explanation</summary>
     <p class="deep">Fully autonomous AI Agents system capable of performing complex penetration testing tasks PentAGI P enetration testing A rtificial G eneral I ntelligence Join the Community! Connect with security researchers, AI enthusiasts, and fellow ethical hackers. Get support, share insights, and stay updated with the latest PentAGI developments. ⠀ Table of Contents Overview Features Architecture Agent Supervision Quick Start How to Use PentAGI After Login API Access LLM Provider Configuration Ollama OpenAI Anthropic Google AI (Gemini) AWS Bedrock DeepSeek GLM Kimi Qwen Advanced Setup Langfuse Integration Monitoring and Observability Knowledge Graph (Graphiti) OAuth Integration Docker Image Configuration Development Testing LLM Agents Embedding Configuration and Testing Function Testing with ftester Building Credits License Overview PentAGI is an innovative tool for automated security testing that leverages cutting-edge artificial intelligence technologies. The project is designed for information security professionals, researchers, and enthusiasts who need a powerful and flexible solution for conducting penetration tests. You can watch the video PentAGI overview : Features Secure &amp; Isolated. All operations are performed in a sandboxed Docker environment with complete isolation. Fully Autonomous. AI-powered agent that automatically determines and executes penetration testing steps with optional execution monitoring and intelligent task planning for enhanced reliability. Professional Pentesting Tools. Built-in suite of 20+ professional security tools including nmap, metasploit, sqlmap, </p>
-    <p><strong>Learning value:</strong> Useful as a learning lead; the model-enhanced run will turn this into a clearer lesson.</p>
-    <p><strong>Watch next:</strong> Watch follow-up coverage, adoption by major labs or companies, and benchmark evidence.</p>
-  </details>
-</article>
-
-<article class="card" data-type="tool_or_framework" data-search="usestrix/strix github trending daily tools tool_or_framework ai agents llm ">
-  <div class="meta">
-    <span class="pill score">95/100</span>
-    <span class="pill">Tool Or Framework</span>
-    <span class="pill">GitHub Trending Daily</span>
-  </div>
-  <h3><a href="https://github.com/usestrix/strix" target="_blank" rel="noreferrer">usestrix/strix</a></h3>
-  
-  <div class="summary">
-    <p><strong>Signal:</strong> Open-source AI hackers to find and fix your app’s vulnerabilities. Strix Open-source AI hackers to find and fix your app’s vulnerabilities. Tip New! Strix integrates seamlessly with GitHub Actions and CI/CD pipelines. Automatically scan for vulnerabilities on every pull request and block insecure code before it reaches production - Get started with no setup required . Strix Overview Strix are autonomous AI agents that act just like real hackers - they run your code dynamically, find vulnerabilities, and validate them through actual proof-of-concepts. Built for developers and security teams who need fast, accurate security testing without the overhead of manual pentesting or the false positives of static analysis tools. Key Capabilities: Full hacker toolkit out of the box Teams of agents that collaborate and scale Real validation with PoCs, not false positives Developer‑first CLI with actionable reports Auto‑fix &amp; reporting to accelerate remediation Use Cases Application Security Testing - Detect and validate critical vulnerabilities in your applications Rapid Penetration Testing - Get penetration tests done in hours, not weeks, with compliance reports Bug Bounty Automation - Automate bug bounty research and generate PoCs for faster reporting CI/CD Integration - Run tests in CI/CD to block vulnerabilities before reaching production 🚀 Quick Start Prerequisites: Docker (running) An LLM API key from any supported provider (OpenAI, Anthropic, Google, etc.) Installation &amp; First Scan # Install Strix curl -sSL https://strix.ai/install | bash # Configure your AI provider export STRI</p>
-    <p><strong>Why it matters:</strong> This matched your tracked interests and may signal a relevant technical or market shift.</p>
-    <p><strong>How it works:</strong> Open the source for details; add OPENAI_API_KEY for a mechanism-level explanation.</p>
-  </div>
-  <details>
-    <summary>Expanded explanation</summary>
-    <p class="deep">Open-source AI hackers to find and fix your app’s vulnerabilities. Strix Open-source AI hackers to find and fix your app’s vulnerabilities. Tip New! Strix integrates seamlessly with GitHub Actions and CI/CD pipelines. Automatically scan for vulnerabilities on every pull request and block insecure code before it reaches production - Get started with no setup required . Strix Overview Strix are autonomous AI agents that act just like real hackers - they run your code dynamically, find vulnerabilities, and validate them through actual proof-of-concepts. Built for developers and security teams who need fast, accurate security testing without the overhead of manual pentesting or the false positives of static analysis tools. Key Capabilities: Full hacker toolkit out of the box Teams of agents that collaborate and scale Real validation with PoCs, not false positives Developer‑first CLI with actionable reports Auto‑fix &amp; reporting to accelerate remediation Use Cases Application Security Testing - Detect and validate critical vulnerabilities in your applications Rapid Penetration Testing - Get penetration tests done in hours, not weeks, with compliance reports Bug Bounty Automation - Automate bug bounty research and generate PoCs for faster reporting CI/CD Integration - Run tests in CI/CD to block vulnerabilities before reaching production 🚀 Quick Start Prerequisites: Docker (running) An LLM API key from any supported provider (OpenAI, Anthropic, Google, etc.) Installation &amp; First Scan # Install Strix curl -sSL https://strix.ai/install | bash # Configure your AI provider export STRI</p>
     <p><strong>Learning value:</strong> Useful as a learning lead; the model-enhanced run will turn this into a clearer lesson.</p>
     <p><strong>Watch next:</strong> Watch follow-up coverage, adoption by major labs or companies, and benchmark evidence.</p>
   </details>
