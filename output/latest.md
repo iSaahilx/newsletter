@@ -76,16 +76,6 @@ Score: 94/100 | Source: [arXiv Artificial Intelligence](https://arxiv.org/abs/26
 
 ## AI and Infrastructure
 
-### Why AI Researchers Are Leaving OpenAI, Anthropic and Google DeepMind - WinBuzzer
-Score: 87/100 | Source: [Anthropic News Search](https://news.google.com/rss/articles/CBMiowFBVV95cUxOS01wUm02eUVDd3JnYnN4bmZtWk92bXJCWVVKTWVEVGtnY1lPa0pVVVc5TGUwRjRsdm1aRmpFZ2ttTDFJdm9lcDh2WEppcWZHakwwS0JCUWxkWUlwUjZWTVEwOEhlZldrOVFvUlVmUVJpMG5nOC1RU01vdDlyY0dESVdGbVBibVhWaXdzdDBZdnBsVjR0QWctOW9wMGY2QXdvbWdj?oc=5)
-**Type:** general_news
-**What happened:** Why AI Researchers Are Leaving OpenAI, Anthropic and Google DeepMind WinBuzzer
-**Why it matters:** This matched your tracked interests and may signal a relevant technical or market shift.
-**How it works:** Open the source for details; add OPENAI_API_KEY for a mechanism-level explanation.
-**Expanded how it works:** Why AI Researchers Are Leaving OpenAI, Anthropic and Google DeepMind WinBuzzer
-**Learning value:** Useful as a learning lead; the model-enhanced run will turn this into a clearer lesson.
-**Watch next:** Watch follow-up coverage, adoption by major labs or companies, and benchmark evidence.
-
 ## Tools and Engineering
 
 ### llm-gemini 0.35
