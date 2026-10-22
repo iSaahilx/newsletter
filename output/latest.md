@@ -156,4 +156,4 @@ Score: 87/100 | Source: [The Verge](https://www.theverge.com/ai-artificial-intel
 
 ## Emerging Trends
 
-- **quantum**: Mentions rose 4.0x versus the previous monthly baseline.
+- **quantum**: Mentions rose 5.33x versus the previous monthly baseline.
