@@ -2,6 +2,16 @@
 
 ## Must Know Today
 
+### Donating Agent Skills to the Agentic AI Foundation
+Score: 95/100 | Source: [Simon Willison](https://simonwillison.net/2026/Oct/22/donating-agent-skills/)
+**Type:** tool_or_framework
+**What happened:** Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we co-founded with Block and OpenAI last year, and to which we donated the Model Context Protocol (MCP). I'm pleased to note I called this one last December , when Anthropic first declared skills to be an "open standard": I wouldn't be surprised to see this end up in the AAIF , recently the new home of the MCP specification. Fun side note: since my blog content is available to Claude via the datasette-mcp plugin I found that post by prompting Claude to " Use simonwillison.net MCP to find if I ever talked about how I want skills to be donated to a standards body ". Tags: standards , ai , generative-ai , llms , anthropic , model-context-protocol , skills
+**Why it matters:** This matched your tracked interests and may signal a relevant technical or market shift.
+**How it works:** Open the source for details; add OPENAI_API_KEY for a mechanism-level explanation.
+**Expanded how it works:** Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we co-founded with Block and OpenAI last year, and to which we donated the Model Context Protocol (MCP). I'm pleased to note I called this one last December , when Anthropic first declared skills to be an "open standard": I wouldn't be surprised to see this end up in the AAIF , recently the new home of the MCP specification. Fun side note: since my blog content is available to Claude via the datasette-mcp plugin I found that post by prompting Claude to " Use simonwillison.net MCP to find if I ever talked about how I want skills to be donated to a standards body ". Tags: standards , ai , generative-ai , llms , anthropic , model-context-protocol , skills
+**Learning value:** Useful as a learning lead; the model-enhanced run will turn this into a clearer lesson.
+**Watch next:** Watch follow-up coverage, adoption by major labs or companies, and benchmark evidence.
+
 ### llm-gemini 0.35
 Score: 95/100 | Source: [Simon Willison](https://simonwillison.net/2026/Oct/13/llm-gemini/)
 **Type:** tool_or_framework
@@ -39,16 +49,6 @@ Score: 95/100 | Source: [Simon Willison](https://simonwillison.net/2026/Sep/16/o
 **Why it matters:** This matched your tracked interests and may signal a relevant technical or market shift.
 **How it works:** Open the source for details; add OPENAI_API_KEY for a mechanism-level explanation.
 **Expanded how it works:** Claude Cowork and chat are now one Claude In hopefully good news for anyone who, like me, was increasingly confused at Cowork v.s. Claude v.s. Claude Code: Starting today, Claude Cowork and chat are merging into one Claude. Bring a quick question, or hand over a report due at noon, and Claude takes it from there, even after you’ve closed your laptop. [...] This is rolling out to Pro and Max plans first, in the Claude app on web, desktop, and mobile over the coming weeks to existing and new users on these plans. I guess this means Claude is becoming a general agent in its own right. Echoes of OpenAI renaming their Codex desktop app to ChatGPT a few weeks ago. On the one hand, this saves me some work, in that I was planning to finally figure out the boundaries between Cowork and regular Claude and write a follow-up to my piece on Understanding ChatGPT Work . I have a hunch that figuring out what this actually means in terms of features and surfaces is still going to take quite a bit of work. Via Hacker News Tags: ai , generative-ai , llms , anthropic , claude , general-agents
-**Learning value:** Useful as a learning lead; the model-enhanced run will turn this into a clearer lesson.
-**Watch next:** Watch follow-up coverage, adoption by major labs or companies, and benchmark evidence.
-
-### earendil-works/pi
-Score: 95/100 | Source: [GitHub Trending Daily](https://github.com/earendil-works/pi)
-**Type:** tool_or_framework
-**What happened:** AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI New issues and PRs from new contributors are auto-closed by default. Maintainers review auto-closed issues daily. See CONTRIBUTING.md . Pi Agent Harness This is the home of the Pi agent harness project including our self extensible coding agent. @earendil-works/pi-coding-agent : Interactive coding agent CLI @earendil-works/pi-agent-core : Agent runtime with tool calling and state management @earendil-works/pi-ai : Unified multi-provider LLM API (OpenAI, Anthropic, Google, …) To learn more about Pi: Visit pi.dev , the project website with demos Read the documentation , but you can also ask the agent to explain itself All Packages Package Description @earendil-works/chord Standalone application-composition runtime for services, replicated state, RPC, and plugins @earendil-works/pi-telemetry Vendor-neutral telemetry contracts, reference adapter, conformance tests, and typed schemas @earendil-works/pi-ai Unified multi-provider LLM API (OpenAI, Anthropic, Google, etc.) @earendil-works/pi-agent-core Agent runtime with tool calling and state management @earendil-works/pi-coding-agent Interactive coding agent CLI @earendil-works/pi-tui Terminal UI library with differential rendering For Slack/chat automation and workflows see earendil-works/pi-chat . Permissions & Containerization Pi does not include a built-in permission system for restricting filesystem, process, network, or credential access. By default, it runs with the permissions of the user and process that launched it. If you need stronger boundaries, cont
-**Why it matters:** This matched your tracked interests and may signal a relevant technical or market shift.
-**How it works:** Open the source for details; add OPENAI_API_KEY for a mechanism-level explanation.
-**Expanded how it works:** AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI New issues and PRs from new contributors are auto-closed by default. Maintainers review auto-closed issues daily. See CONTRIBUTING.md . Pi Agent Harness This is the home of the Pi agent harness project including our self extensible coding agent. @earendil-works/pi-coding-agent : Interactive coding agent CLI @earendil-works/pi-agent-core : Agent runtime with tool calling and state management @earendil-works/pi-ai : Unified multi-provider LLM API (OpenAI, Anthropic, Google, …) To learn more about Pi: Visit pi.dev , the project website with demos Read the documentation , but you can also ask the agent to explain itself All Packages Package Description @earendil-works/chord Standalone application-composition runtime for services, replicated state, RPC, and plugins @earendil-works/pi-telemetry Vendor-neutral telemetry contracts, reference adapter, conformance tests, and typed schemas @earendil-works/pi-ai Unified multi-provider LLM API (OpenAI, Anthropic, Google, etc.) @earendil-works/pi-agent-core Agent runtime with tool calling and state management @earendil-works/pi-coding-agent Interactive coding agent CLI @earendil-works/pi-tui Terminal UI library with differential rendering For Slack/chat automation and workflows see earendil-works/pi-chat . Permissions & Containerization Pi does not include a built-in permission system for restricting filesystem, process, network, or credential access. By default, it runs with the permissions of the user and process that launched it. If you need stronger boundaries, cont
 **Learning value:** Useful as a learning lead; the model-enhanced run will turn this into a clearer lesson.
 **Watch next:** Watch follow-up coverage, adoption by major labs or companies, and benchmark evidence.
 
@@ -78,6 +78,16 @@ Score: 94/100 | Source: [arXiv Artificial Intelligence](https://arxiv.org/abs/26
 
 ## Tools and Engineering
 
+### Donating Agent Skills to the Agentic AI Foundation
+Score: 95/100 | Source: [Simon Willison](https://simonwillison.net/2026/Oct/22/donating-agent-skills/)
+**Type:** tool_or_framework
+**What happened:** Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we co-founded with Block and OpenAI last year, and to which we donated the Model Context Protocol (MCP). I'm pleased to note I called this one last December , when Anthropic first declared skills to be an "open standard": I wouldn't be surprised to see this end up in the AAIF , recently the new home of the MCP specification. Fun side note: since my blog content is available to Claude via the datasette-mcp plugin I found that post by prompting Claude to " Use simonwillison.net MCP to find if I ever talked about how I want skills to be donated to a standards body ". Tags: standards , ai , generative-ai , llms , anthropic , model-context-protocol , skills
+**Why it matters:** This matched your tracked interests and may signal a relevant technical or market shift.
+**How it works:** Open the source for details; add OPENAI_API_KEY for a mechanism-level explanation.
+**Expanded how it works:** Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we co-founded with Block and OpenAI last year, and to which we donated the Model Context Protocol (MCP). I'm pleased to note I called this one last December , when Anthropic first declared skills to be an "open standard": I wouldn't be surprised to see this end up in the AAIF , recently the new home of the MCP specification. Fun side note: since my blog content is available to Claude via the datasette-mcp plugin I found that post by prompting Claude to " Use simonwillison.net MCP to find if I ever talked about how I want skills to be donated to a standards body ". Tags: standards , ai , generative-ai , llms , anthropic , model-context-protocol , skills
+**Learning value:** Useful as a learning lead; the model-enhanced run will turn this into a clearer lesson.
+**Watch next:** Watch follow-up coverage, adoption by major labs or companies, and benchmark evidence.
+
 ### llm-gemini 0.35
 Score: 95/100 | Source: [Simon Willison](https://simonwillison.net/2026/Oct/13/llm-gemini/)
 **Type:** tool_or_framework
@@ -118,16 +128,6 @@ Score: 95/100 | Source: [Simon Willison](https://simonwillison.net/2026/Sep/16/o
 **Learning value:** Useful as a learning lead; the model-enhanced run will turn this into a clearer lesson.
 **Watch next:** Watch follow-up coverage, adoption by major labs or companies, and benchmark evidence.
 
-### earendil-works/pi
-Score: 95/100 | Source: [GitHub Trending Daily](https://github.com/earendil-works/pi)
-**Type:** tool_or_framework
-**What happened:** AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI New issues and PRs from new contributors are auto-closed by default. Maintainers review auto-closed issues daily. See CONTRIBUTING.md . Pi Agent Harness This is the home of the Pi agent harness project including our self extensible coding agent. @earendil-works/pi-coding-agent : Interactive coding agent CLI @earendil-works/pi-agent-core : Agent runtime with tool calling and state management @earendil-works/pi-ai : Unified multi-provider LLM API (OpenAI, Anthropic, Google, …) To learn more about Pi: Visit pi.dev , the project website with demos Read the documentation , but you can also ask the agent to explain itself All Packages Package Description @earendil-works/chord Standalone application-composition runtime for services, replicated state, RPC, and plugins @earendil-works/pi-telemetry Vendor-neutral telemetry contracts, reference adapter, conformance tests, and typed schemas @earendil-works/pi-ai Unified multi-provider LLM API (OpenAI, Anthropic, Google, etc.) @earendil-works/pi-agent-core Agent runtime with tool calling and state management @earendil-works/pi-coding-agent Interactive coding agent CLI @earendil-works/pi-tui Terminal UI library with differential rendering For Slack/chat automation and workflows see earendil-works/pi-chat . Permissions & Containerization Pi does not include a built-in permission system for restricting filesystem, process, network, or credential access. By default, it runs with the permissions of the user and process that launched it. If you need stronger boundaries, cont
-**Why it matters:** This matched your tracked interests and may signal a relevant technical or market shift.
-**How it works:** Open the source for details; add OPENAI_API_KEY for a mechanism-level explanation.
-**Expanded how it works:** AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI New issues and PRs from new contributors are auto-closed by default. Maintainers review auto-closed issues daily. See CONTRIBUTING.md . Pi Agent Harness This is the home of the Pi agent harness project including our self extensible coding agent. @earendil-works/pi-coding-agent : Interactive coding agent CLI @earendil-works/pi-agent-core : Agent runtime with tool calling and state management @earendil-works/pi-ai : Unified multi-provider LLM API (OpenAI, Anthropic, Google, …) To learn more about Pi: Visit pi.dev , the project website with demos Read the documentation , but you can also ask the agent to explain itself All Packages Package Description @earendil-works/chord Standalone application-composition runtime for services, replicated state, RPC, and plugins @earendil-works/pi-telemetry Vendor-neutral telemetry contracts, reference adapter, conformance tests, and typed schemas @earendil-works/pi-ai Unified multi-provider LLM API (OpenAI, Anthropic, Google, etc.) @earendil-works/pi-agent-core Agent runtime with tool calling and state management @earendil-works/pi-coding-agent Interactive coding agent CLI @earendil-works/pi-tui Terminal UI library with differential rendering For Slack/chat automation and workflows see earendil-works/pi-chat . Permissions & Containerization Pi does not include a built-in permission system for restricting filesystem, process, network, or credential access. By default, it runs with the permissions of the user and process that launched it. If you need stronger boundaries, cont
-**Learning value:** Useful as a learning lead; the model-enhanced run will turn this into a clearer lesson.
-**Watch next:** Watch follow-up coverage, adoption by major labs or companies, and benchmark evidence.
-
 ## Science, Quantum, and Curiosity
 
 ### The AI Inference Revolution Is Here
@@ -140,20 +140,11 @@ Score: 88/100 | Source: [IEEE Spectrum](https://spectrum.ieee.org/inference-hard
 **Learning value:** Useful as a learning lead; the model-enhanced run will turn this into a clearer lesson.
 **Watch next:** Watch follow-up coverage, adoption by major labs or companies, and benchmark evidence.
 
-### All the drama around AI’s takeover of mathematics
-Score: 87/100 | Source: [The Verge](https://www.theverge.com/ai-artificial-intelligence/1004933/ai-math-openai-breakthrough-solution)
-**Type:** technical_breakthrough
-**What happened:** This past year, OpenAI, Anthropic, and other labs have announced breakthroughs on numerous long-standing mathematical problems, in some cases pushing well beyond what researchers expected current systems to be capable of — including resolving one of the famous Millennium Prize problems. But in classic Silicon Valley style, AI labs are moving fast and breaking things, […]
-**Why it matters:** This matched your tracked interests and may signal a relevant technical or market shift.
-**How it works:** Open the source for details; add OPENAI_API_KEY for a mechanism-level explanation.
-**Expanded how it works:** This past year, OpenAI, Anthropic, and other labs have announced breakthroughs on numerous long-standing mathematical problems, in some cases pushing well beyond what researchers expected current systems to be capable of — including resolving one of the famous Millennium Prize problems. But in classic Silicon Valley style, AI labs are moving fast and breaking things, […]
-**Learning value:** Useful as a learning lead; the model-enhanced run will turn this into a clearer lesson.
-**Watch next:** Watch follow-up coverage, adoption by major labs or companies, and benchmark evidence.
-
 ## Markets and Company Strategy
 
 ## Videos Worth Learning From
 
 ## Emerging Trends
 
-- **quantum**: Mentions rose 5.33x versus the previous monthly baseline.
+- **quantum**: Mentions rose 8.0x versus the previous monthly baseline.
+- **robotics**: Mentions rose 2.67x versus the previous monthly baseline.

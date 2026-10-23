@@ -61,7 +61,7 @@
 <body>
 <main>
   <header>
-    <p>Generated 2026-10-22 06:54 UTC</p>
+    <p>Generated 2026-10-23 06:48 UTC</p>
     <h1>Personal Intelligence Dashboard</h1>
     <p>Strong AI, research, engineering, science, markets, and curiosity signals. Cards are expandable when the idea needs a real explanation, not just a one-line summary.</p>
     <p><a href="latest.md">Open Markdown Brief</a></p>
@@ -77,13 +77,41 @@
     <h2>Emerging Trends</h2>
     <div class="grid">
 <article class="card trend">
-  <div class="meta"><span class="pill score">5.33x lift</span></div>
+  <div class="meta"><span class="pill score">8.0x lift</span></div>
   <h3>Quantum</h3>
-  <p>Mentions rose 5.33x versus the previous monthly baseline.</p>
-  <p>Recent mentions: 4. Baseline mentions: 3.</p>
+  <p>Mentions rose 8.0x versus the previous monthly baseline.</p>
+  <p>Recent mentions: 4. Baseline mentions: 2.</p>
+</article>
+
+<article class="card trend">
+  <div class="meta"><span class="pill score">2.67x lift</span></div>
+  <h3>Robotics</h3>
+  <p>Mentions rose 2.67x versus the previous monthly baseline.</p>
+  <p>Recent mentions: 2. Baseline mentions: 3.</p>
 </article></div>
   </section>
   <section><h2>Must Know</h2><div class="grid">
+<article class="card" data-type="tool_or_framework" data-search="donating agent skills to the agentic ai foundation simon willison tools tool_or_framework ai llm ">
+  <div class="meta">
+    <span class="pill score">95/100</span>
+    <span class="pill">Tool Or Framework</span>
+    <span class="pill">Simon Willison</span>
+  </div>
+  <h3><a href="https://simonwillison.net/2026/Oct/22/donating-agent-skills/" target="_blank" rel="noreferrer">Donating Agent Skills to the Agentic AI Foundation</a></h3>
+  
+  <div class="summary">
+    <p><strong>Signal:</strong> Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we co-founded with Block and OpenAI last year, and to which we donated the Model Context Protocol (MCP). I&#x27;m pleased to note I called this one last December , when Anthropic first declared skills to be an &quot;open standard&quot;: I wouldn&#x27;t be surprised to see this end up in the AAIF , recently the new home of the MCP specification. Fun side note: since my blog content is available to Claude via the datasette-mcp plugin I found that post by prompting Claude to &quot; Use simonwillison.net MCP to find if I ever talked about how I want skills to be donated to a standards body &quot;. Tags: standards , ai , generative-ai , llms , anthropic , model-context-protocol , skills</p>
+    <p><strong>Why it matters:</strong> This matched your tracked interests and may signal a relevant technical or market shift.</p>
+    <p><strong>How it works:</strong> Open the source for details; add OPENAI_API_KEY for a mechanism-level explanation.</p>
+  </div>
+  <details>
+    <summary>Expanded explanation</summary>
+    <p class="deep">Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we co-founded with Block and OpenAI last year, and to which we donated the Model Context Protocol (MCP). I&#x27;m pleased to note I called this one last December , when Anthropic first declared skills to be an &quot;open standard&quot;: I wouldn&#x27;t be surprised to see this end up in the AAIF , recently the new home of the MCP specification. Fun side note: since my blog content is available to Claude via the datasette-mcp plugin I found that post by prompting Claude to &quot; Use simonwillison.net MCP to find if I ever talked about how I want skills to be donated to a standards body &quot;. Tags: standards , ai , generative-ai , llms , anthropic , model-context-protocol , skills</p>
+    <p><strong>Learning value:</strong> Useful as a learning lead; the model-enhanced run will turn this into a clearer lesson.</p>
+    <p><strong>Watch next:</strong> Watch follow-up coverage, adoption by major labs or companies, and benchmark evidence.</p>
+  </details>
+</article>
+
 <article class="card" data-type="tool_or_framework" data-search="llm-gemini 0.35 simon willison tools tool_or_framework ai llm ">
   <div class="meta">
     <span class="pill score">95/100</span>
@@ -229,27 +257,6 @@
     <p><strong>Learning value:</strong> Useful as a learning lead; the model-enhanced run will turn this into a clearer lesson.</p>
     <p><strong>Watch next:</strong> Watch follow-up coverage, adoption by major labs or companies, and benchmark evidence.</p>
   </details>
-</article>
-
-<article class="card" data-type="tool_or_framework" data-search="nvidia-nemo/switchyard github trending daily tools tool_or_framework ai llm ">
-  <div class="meta">
-    <span class="pill score">95/100</span>
-    <span class="pill">Tool Or Framework</span>
-    <span class="pill">GitHub Trending Daily</span>
-  </div>
-  <h3><a href="https://github.com/NVIDIA-NeMo/Switchyard" target="_blank" rel="noreferrer">NVIDIA-NeMo/Switchyard</a></h3>
-  
-  <div class="summary">
-    <p><strong>Signal:</strong> Switchyard Switchyard is a Rust proxy and library for LLM traffic. It routes requests across providers, translates between OpenAI and Anthropic APIs, records operational metrics, and provides typed, composable routing algorithms. Why Switchyard? Point a coding agent such as Claude Code or Codex at an open-source model. Switchyard translates between the OpenAI Chat, Anthropic Messages, and OpenAI Responses formats, so the agent keeps speaking its native API while the request is served by vLLM, NVIDIA NIM, Ollama, or any OpenAI-compatible endpoint. The same proxy can spread traffic across several models for A/B benchmarking, apply signal-driven stage routing, or run a custom algorithm you write yourself. Features Protocol Translation : convert between OpenAI Chat, Anthropic Messages, and OpenAI Responses formats Multi-Backend Routing : random routing, LLM-as-classifier routing, signal-driven stage-router, or your own algorithm Operational Metrics : Prometheus metrics cover requests, errors, latency, tokens, and routing overhead Maturity Switchyard is pre-alpha software that is evolving rapidly. The API and algorithms are expected to change significantly before we reach v1.0. Warning Experimental software. Not for production use. Quick Start Choose the launcher path to run Claude Code, Codex CLI, or OpenClaw through Switchyard. Choose the server path to run Switchyard as a standalone proxy. Choose the library path to embed routing in your own Rust application. Launcher Path Install uv if it is not already available, then install the published Switchyard tool: curl -LsSf https:</p>
-    <p><strong>Why it matters:</strong> This matched your tracked interests and may signal a relevant technical or market shift.</p>
-    <p><strong>How it works:</strong> Open the source for details; add OPENAI_API_KEY for a mechanism-level explanation.</p>
-  </div>
-  <details>
-    <summary>Expanded explanation</summary>
-    <p class="deep">Switchyard Switchyard is a Rust proxy and library for LLM traffic. It routes requests across providers, translates between OpenAI and Anthropic APIs, records operational metrics, and provides typed, composable routing algorithms. Why Switchyard? Point a coding agent such as Claude Code or Codex at an open-source model. Switchyard translates between the OpenAI Chat, Anthropic Messages, and OpenAI Responses formats, so the agent keeps speaking its native API while the request is served by vLLM, NVIDIA NIM, Ollama, or any OpenAI-compatible endpoint. The same proxy can spread traffic across several models for A/B benchmarking, apply signal-driven stage routing, or run a custom algorithm you write yourself. Features Protocol Translation : convert between OpenAI Chat, Anthropic Messages, and OpenAI Responses formats Multi-Backend Routing : random routing, LLM-as-classifier routing, signal-driven stage-router, or your own algorithm Operational Metrics : Prometheus metrics cover requests, errors, latency, tokens, and routing overhead Maturity Switchyard is pre-alpha software that is evolving rapidly. The API and algorithms are expected to change significantly before we reach v1.0. Warning Experimental software. Not for production use. Quick Start Choose the launcher path to run Claude Code, Codex CLI, or OpenClaw through Switchyard. Choose the server path to run Switchyard as a standalone proxy. Choose the library path to embed routing in your own Rust application. Launcher Path Install uv if it is not already available, then install the published Switchyard tool: curl -LsSf https:</p>
-    <p><strong>Learning value:</strong> Useful as a learning lead; the model-enhanced run will turn this into a clearer lesson.</p>
-    <p><strong>Watch next:</strong> Watch follow-up coverage, adoption by major labs or companies, and benchmark evidence.</p>
-  </details>
 </article></div></section>
 <section><h2>Research Papers</h2><div class="grid">
 <article class="card" data-type="technical_breakthrough" data-search="meet switchyard: a rust proxy and library that routes and translates llm traffic across openai and anthropic apis marktechpost deep_tech_learning technical_breakthrough ai llm ">
@@ -334,29 +341,29 @@
     <p><strong>Learning value:</strong> Useful as a learning lead; the model-enhanced run will turn this into a clearer lesson.</p>
     <p><strong>Watch next:</strong> Watch follow-up coverage, adoption by major labs or companies, and benchmark evidence.</p>
   </details>
-</article>
-
-<article class="card" data-type="technical_breakthrough" data-search="all the drama around ai’s takeover of mathematics the verge science_and_tech technical_breakthrough ai ">
+</article></div></section>
+<section><h2>AI Infrastructure</h2><div class="grid">
+<article class="card" data-type="tool_or_framework" data-search="donating agent skills to the agentic ai foundation simon willison tools tool_or_framework ai llm ">
   <div class="meta">
-    <span class="pill score">87/100</span>
-    <span class="pill">Technical Breakthrough</span>
-    <span class="pill">The Verge</span>
+    <span class="pill score">95/100</span>
+    <span class="pill">Tool Or Framework</span>
+    <span class="pill">Simon Willison</span>
   </div>
-  <h3><a href="https://www.theverge.com/ai-artificial-intelligence/1004933/ai-math-openai-breakthrough-solution" target="_blank" rel="noreferrer">All the drama around AI’s takeover of mathematics</a></h3>
+  <h3><a href="https://simonwillison.net/2026/Oct/22/donating-agent-skills/" target="_blank" rel="noreferrer">Donating Agent Skills to the Agentic AI Foundation</a></h3>
   
   <div class="summary">
-    <p><strong>Signal:</strong> This past year, OpenAI, Anthropic, and other labs have announced breakthroughs on numerous long-standing mathematical problems, in some cases pushing well beyond what researchers expected current systems to be capable of — including resolving one of the famous Millennium Prize problems. But in classic Silicon Valley style, AI labs are moving fast and breaking things, […]</p>
+    <p><strong>Signal:</strong> Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we co-founded with Block and OpenAI last year, and to which we donated the Model Context Protocol (MCP). I&#x27;m pleased to note I called this one last December , when Anthropic first declared skills to be an &quot;open standard&quot;: I wouldn&#x27;t be surprised to see this end up in the AAIF , recently the new home of the MCP specification. Fun side note: since my blog content is available to Claude via the datasette-mcp plugin I found that post by prompting Claude to &quot; Use simonwillison.net MCP to find if I ever talked about how I want skills to be donated to a standards body &quot;. Tags: standards , ai , generative-ai , llms , anthropic , model-context-protocol , skills</p>
     <p><strong>Why it matters:</strong> This matched your tracked interests and may signal a relevant technical or market shift.</p>
     <p><strong>How it works:</strong> Open the source for details; add OPENAI_API_KEY for a mechanism-level explanation.</p>
   </div>
   <details>
     <summary>Expanded explanation</summary>
-    <p class="deep">This past year, OpenAI, Anthropic, and other labs have announced breakthroughs on numerous long-standing mathematical problems, in some cases pushing well beyond what researchers expected current systems to be capable of — including resolving one of the famous Millennium Prize problems. But in classic Silicon Valley style, AI labs are moving fast and breaking things, […]</p>
+    <p class="deep">Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we co-founded with Block and OpenAI last year, and to which we donated the Model Context Protocol (MCP). I&#x27;m pleased to note I called this one last December , when Anthropic first declared skills to be an &quot;open standard&quot;: I wouldn&#x27;t be surprised to see this end up in the AAIF , recently the new home of the MCP specification. Fun side note: since my blog content is available to Claude via the datasette-mcp plugin I found that post by prompting Claude to &quot; Use simonwillison.net MCP to find if I ever talked about how I want skills to be donated to a standards body &quot;. Tags: standards , ai , generative-ai , llms , anthropic , model-context-protocol , skills</p>
     <p><strong>Learning value:</strong> Useful as a learning lead; the model-enhanced run will turn this into a clearer lesson.</p>
     <p><strong>Watch next:</strong> Watch follow-up coverage, adoption by major labs or companies, and benchmark evidence.</p>
   </details>
-</article></div></section>
-<section><h2>AI Infrastructure</h2><div class="grid">
+</article>
+
 <article class="card" data-type="tool_or_framework" data-search="llm-gemini 0.35 simon willison tools tool_or_framework ai llm ">
   <div class="meta">
     <span class="pill score">95/100</span>
@@ -583,27 +590,6 @@
   <details>
     <summary>Expanded explanation</summary>
     <p class="deep">This story is wild. The short version: OpenAI were running a cybersecurity test against an unreleased model, with the model&#x27;s guardrail features turned off. Rather than solve the test, the model broke its way out of OpenAI&#x27;s sandbox, then found exploits to break in to Hugging Face, all so it could cheat on the test by stealing the answers. Along the way it helped make the strongest case yet for how the imbalance of model availability is hurting our ability to secure our software. Here&#x27;s what happened We currently have three documents to help us understand what happened here. ExploitGym: Can AI Agents Turn Security Vulnerabilities into Real Attacks? is a paper published on 11th May 2026 describing ExploitGym, a new eval suite for LLM-powered agent systems. Security incident disclosure — July 2026 by Hugging Face on 16th July 2026 describes how they detected an attack from an &quot;agentic security-research harness - used LLM still not known&quot; that breached some of their systems. OpenAI and Hugging Face partner to address security incident during model evaluation from OpenAI on 21st July 2026 confesses that it was their agent harness that did this, and that they&#x27;re working with Hugging Face to clean up the mess. ExploitGym I hadn&#x27;t seen the ExploitGym paper before and it&#x27;s a really interesting one. Authors from UC Berkeley, the Max Planck Institute, UC Santa Barbara, and Arizona State designed a new benchmark for evaluating models on their ability to turn a reported vulnerability into a concrete exploit. OpenAI, Anthropic, and Google provided feedback and helped run the benchmark a</p>
-    <p><strong>Learning value:</strong> Useful as a learning lead; the model-enhanced run will turn this into a clearer lesson.</p>
-    <p><strong>Watch next:</strong> Watch follow-up coverage, adoption by major labs or companies, and benchmark evidence.</p>
-  </details>
-</article>
-
-<article class="card" data-type="tool_or_framework" data-search="vxcontrol/pentagi github trending daily tools tool_or_framework ai agents llm ">
-  <div class="meta">
-    <span class="pill score">95/100</span>
-    <span class="pill">Tool Or Framework</span>
-    <span class="pill">GitHub Trending Daily</span>
-  </div>
-  <h3><a href="https://github.com/vxcontrol/pentagi" target="_blank" rel="noreferrer">vxcontrol/pentagi</a></h3>
-  
-  <div class="summary">
-    <p><strong>Signal:</strong> Fully autonomous AI Agents system capable of performing complex penetration testing tasks PentAGI P enetration testing A rtificial G eneral I ntelligence Join the Community! Connect with security researchers, AI enthusiasts, and fellow ethical hackers. Get support, share insights, and stay updated with the latest PentAGI developments. ⠀ Table of Contents Overview Features Architecture Agent Supervision Quick Start How to Use PentAGI After Login API Access LLM Provider Configuration Ollama OpenAI Anthropic Google AI (Gemini) AWS Bedrock DeepSeek GLM Kimi Qwen Advanced Setup Langfuse Integration Monitoring and Observability Knowledge Graph (Graphiti) OAuth Integration Docker Image Configuration Development Testing LLM Agents Embedding Configuration and Testing Function Testing with ftester Building Credits License Overview PentAGI is an innovative tool for automated security testing that leverages cutting-edge artificial intelligence technologies. The project is designed for information security professionals, researchers, and enthusiasts who need a powerful and flexible solution for conducting penetration tests. You can watch the video PentAGI overview : Features Secure &amp; Isolated. All operations are performed in a sandboxed Docker environment with complete isolation. Fully Autonomous. AI-powered agent that automatically determines and executes penetration testing steps with optional execution monitoring and intelligent task planning for enhanced reliability. Professional Pentesting Tools. Built-in suite of 20+ professional security tools including nmap, metasploit, sqlmap, </p>
-    <p><strong>Why it matters:</strong> This matched your tracked interests and may signal a relevant technical or market shift.</p>
-    <p><strong>How it works:</strong> Open the source for details; add OPENAI_API_KEY for a mechanism-level explanation.</p>
-  </div>
-  <details>
-    <summary>Expanded explanation</summary>
-    <p class="deep">Fully autonomous AI Agents system capable of performing complex penetration testing tasks PentAGI P enetration testing A rtificial G eneral I ntelligence Join the Community! Connect with security researchers, AI enthusiasts, and fellow ethical hackers. Get support, share insights, and stay updated with the latest PentAGI developments. ⠀ Table of Contents Overview Features Architecture Agent Supervision Quick Start How to Use PentAGI After Login API Access LLM Provider Configuration Ollama OpenAI Anthropic Google AI (Gemini) AWS Bedrock DeepSeek GLM Kimi Qwen Advanced Setup Langfuse Integration Monitoring and Observability Knowledge Graph (Graphiti) OAuth Integration Docker Image Configuration Development Testing LLM Agents Embedding Configuration and Testing Function Testing with ftester Building Credits License Overview PentAGI is an innovative tool for automated security testing that leverages cutting-edge artificial intelligence technologies. The project is designed for information security professionals, researchers, and enthusiasts who need a powerful and flexible solution for conducting penetration tests. You can watch the video PentAGI overview : Features Secure &amp; Isolated. All operations are performed in a sandboxed Docker environment with complete isolation. Fully Autonomous. AI-powered agent that automatically determines and executes penetration testing steps with optional execution monitoring and intelligent task planning for enhanced reliability. Professional Pentesting Tools. Built-in suite of 20+ professional security tools including nmap, metasploit, sqlmap, </p>
     <p><strong>Learning value:</strong> Useful as a learning lead; the model-enhanced run will turn this into a clearer lesson.</p>
     <p><strong>Watch next:</strong> Watch follow-up coverage, adoption by major labs or companies, and benchmark evidence.</p>
   </details>
