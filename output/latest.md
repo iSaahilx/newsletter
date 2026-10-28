@@ -146,5 +146,5 @@ Score: 88/100 | Source: [IEEE Spectrum](https://spectrum.ieee.org/inference-hard
 
 ## Emerging Trends
 
-- **robotics**: Mentions rose 5.33x versus the previous monthly baseline.
+- **robotics**: Mentions rose 6.67x versus the previous monthly baseline.
 - **quantum**: Mentions rose 2.0x versus the previous monthly baseline.
