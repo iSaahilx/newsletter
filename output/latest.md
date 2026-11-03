@@ -145,5 +145,3 @@ Score: 88/100 | Source: [IEEE Spectrum](https://spectrum.ieee.org/inference-hard
 ## Videos Worth Learning From
 
 ## Emerging Trends
-
-- **robotics**: Mentions rose 3.0x versus the previous monthly baseline.
